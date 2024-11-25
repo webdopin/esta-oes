@@ -44,19 +44,19 @@ echo isset($_POST['cor_fundo']) ? $_POST['cor_fundo'] : '#ffffff';
 
         if (($mes == 12 && $dia >= 21) || $mes == 1 || $mes == 2 || ($mes == 3 && $dia < 20)) {
             $estacao = 'Verão';
-            $imagem = 'https://www.blusaude.com.br/images/blog/verao-alimentacao.jpg'; 
+            $imagem = 'https://aventurasnahistoria.com.br/media/_versions/legacy/2018/12/14/capa_as_quatro_estacoes_nao_existem_widelg.jpeg'; 
             $corFundo = '#FFD700'; 
         } elseif (($mes == 3 && $dia >= 20) || $mes == 4 || $mes == 5 || ($mes == 6 && $dia < 21)) {
             $estacao = 'Outono';
-            $imagem = 'https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/11/folhas.jpg'; 
+            $imagem = 'https://cdn.radiojotafm.com.br/upload/dn_arquivo/2024/03/outono.jpg'; 
             $corFundo = '#FF8C00'; 
         } elseif (($mes == 6 && $dia >= 21) || $mes == 7 || $mes == 8 || ($mes == 9 && $dia < 23)) {
             $estacao = 'Inverno';
-            $imagem = 'https://www.infoescola.com/wp-content/uploads/2008/10/inverno-450x334.jpg';
+            $imagem = 'https://i0.wp.com/www.dosedeilusao.com/wp-content/uploads/2013/06/in21.jpg?resize=650%2C400';
             $corFundo = '#87CEFA';
         } elseif (($mes == 9 && $dia >= 23) || $mes == 10 || $mes == 11 || ($mes == 12 && $dia < 21)) {
             $estacao = 'Primavera';
-            $imagem = 'https://www.clinicameitan.com.br/wp-content/uploads/primavera-caracteristicas-periodo-e-curiosidades.jpg'; 
+            $imagem = 'https://dicas.viagempronta.com/wp-content/uploads/2019/02/holambra.jpg'; 
             $corFundo = '#98FB98'; 
         }
 
